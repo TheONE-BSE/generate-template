@@ -1,0 +1,18 @@
+{
+  "name": "ge-template",
+  "version": "1.0.3",
+  "description": "Generator vue template",
+  "bin": {
+    "ge-template": "generator.js"
+  },
+  "main": "generator.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "inquirer": "^6.2.1"
+  },
+  "author": "infun",
+  "license": "ISC"
+}
