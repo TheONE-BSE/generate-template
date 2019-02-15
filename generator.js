@@ -17,7 +17,7 @@ if (!dirPath) {
     process.exit(0);
 }
 
-const scssTep = '';
+const lessTep = '';
 
 inquirer.prompt([
   {
@@ -80,7 +80,7 @@ export default {
   process.chdir(`${dirPath}`); // cd $1
 
   fs.writeFileSync('index.vue', indexTep);
-  fs.writeFileSync('index.less', scssTep);
+  fs.writeFileSync('index.less', lessTep);
 
   console.log(`模版${getDirName(dirPath)}已创建,请手动添加其他功能,happy hacking!`);
 
